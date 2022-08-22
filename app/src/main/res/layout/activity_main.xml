@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyApplication11.AppBarOverlay">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/typedossier"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="type dossier"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/typepension"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="type pension"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/titrepension"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:hint="titre pension"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+
+
+        <EditText
+            android:id="@+id/nom"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Nom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/prenom"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="prenom"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/sexe"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="sexe"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/telephone"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="telephone"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/datenaissance"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="date naissance"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lieunaissance"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="lieu naissance"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/prenompere"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="prenom pere"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/prenommere"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="prenom mere"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/nommere"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="nom mere"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/referenceacte"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="reference Acte"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/matriculefonctionnaire"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="matricule fonctionnaire"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/referenceacteconcession"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="reference Acte Concession"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lieupaimentpension"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="lieu paimentpension"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/matriculetitredecujus"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="matricule titre decujus"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/prenomdecujus"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="prenom decujus"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/lieuparente"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="lieu parente"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/obsevation"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:ems="10"
+            android:hint="obsevation"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="add"
+            tools:text="Ajouter" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="@dimen/fab_margin"
+        android:layout_marginBottom="16dp"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
